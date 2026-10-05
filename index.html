@@ -152,7 +152,7 @@
   <header>
     <p class="app-name">MockUro</p>
     <h1>Privacy Policy</h1>
-    <p class="effective-date">Effective date: August 5, 2026</p>
+    <p class="effective-date">Effective date: October 5, 2026</p>
   </header>
 
   <p class="intro">
@@ -163,9 +163,8 @@
   </p>
 
   <div class="notice-card">
-    MockUro is not affiliated with, endorsed by, or officially connected to the
-    American Urological Association (AUA) or any other medical society referenced
-    in the app. MockUro is intended for educational and board preparation purposes
+    MockUro is not affiliated with, endorsed by, or officially connected to any
+    professional medical society or certification board referenced in the app. MockUro is intended for educational and board preparation purposes
     only and is not a substitute for clinical training or professional judgment.
   </div>
 
@@ -208,13 +207,17 @@
     <p class="subsection-title">Subscription and payment information</p>
     <div class="bullet">
       <span class="bullet-dot">•</span>
-      <span class="bullet-text"><span class="bullet-label">Subscription status: </span>We record your subscription plan (free or subscriber), subscription start/end dates, and renewal status. Payment transactions are processed exclusively by Apple via the App Store. We never receive, store, or have access to your credit card number, bank account information, or any other payment credentials.</span>
+      <span class="bullet-text"><span class="bullet-label">Subscription status: </span>We record your subscription plan (free or subscriber), subscription start/end dates, and renewal status. Payment transactions are processed exclusively by Apple (App Store) or Google (Google Play), depending on your device. We never receive, store, or have access to your credit card number, bank account information, or any other payment credentials.</span>
     </div>
 
     <p class="subsection-title">Technical information</p>
     <div class="bullet">
       <span class="bullet-dot">•</span>
-      <span class="bullet-text"><span class="bullet-label">Authentication tokens: </span>Supabase authentication tokens are stored in your device's secure keychain (iOS Keychain via expo-secure-store). We do not store passwords in plain text.</span>
+      <span class="bullet-text"><span class="bullet-label">Authentication tokens: </span>Supabase authentication tokens are stored in your device's secure keychain (iOS Keychain or Android Keystore via expo-secure-store). We do not store passwords in plain text.</span>
+    </div>
+    <div class="bullet">
+      <span class="bullet-dot">•</span>
+      <span class="bullet-text"><span class="bullet-label">Device information: </span>To limit each account to two active devices, we store a randomly generated device identifier, your device model name, platform (iOS or Android), and when the device was last used. This information is not used for advertising or tracking.</span>
     </div>
     <div class="bullet">
       <span class="bullet-dot">•</span>
@@ -236,7 +239,7 @@
     </div>
     <div class="bullet">
       <span class="bullet-dot">•</span>
-      <span class="bullet-text"><span class="bullet-label">Manage your subscription: </span>Verify your subscription status, enforce usage limits, and process subscription events (purchases, renewals, cancellations, and expirations) via RevenueCat and the App Store.</span>
+      <span class="bullet-text"><span class="bullet-label">Manage your subscription: </span>Verify your subscription status, enforce usage limits, and process subscription events (purchases, renewals, cancellations, and expirations) via RevenueCat and the App Store or Google Play.</span>
     </div>
     <div class="bullet">
       <span class="bullet-dot">•</span>
@@ -274,6 +277,10 @@
     </div>
     <div class="bullet">
       <span class="bullet-dot">•</span>
+      <span class="bullet-text"><span class="bullet-label">Google Play: </span>On Android, subscription purchases are processed by Google. Google's privacy policy governs any data exchanged during the payment process (<a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a>).</span>
+    </div>
+    <div class="bullet">
+      <span class="bullet-dot">•</span>
       <span class="bullet-text"><span class="bullet-label">Legal requirements: </span>We may disclose information if required by law, court order, or governmental authority, or if we believe disclosure is necessary to protect the rights, property, or safety of MockUro, our users, or the public.</span>
     </div>
   </div>
@@ -294,7 +301,7 @@
     </div>
     <div class="bullet">
       <span class="bullet-dot">•</span>
-      <span class="bullet-text"><span class="bullet-label">Account deletion: </span>You can permanently delete your account and all associated data at any time from Account → Profile → Delete Account. This action is immediate and irreversible.</span>
+      <span class="bullet-text"><span class="bullet-label">Account deletion: </span>You can permanently delete your account and all associated data at any time from Account → Profile → Delete Account. This action is immediate and irreversible. You can also request deletion without the app by emailing mockuroapp@gmail.com from the email address on your account; we will delete your account and associated data within 30 days.</span>
     </div>
     <div class="bullet">
       <span class="bullet-dot">•</span>
@@ -316,7 +323,7 @@
     <p>We take reasonable and appropriate measures to protect your information from unauthorized access, alteration, disclosure, or destruction. These measures include:</p>
     <div class="bullet">
       <span class="bullet-dot">•</span>
-      <span class="bullet-text"><span class="bullet-label">Encrypted storage: </span>Authentication tokens are stored in the iOS Keychain using expo-secure-store. All data transmission between the app and our servers uses TLS encryption.</span>
+      <span class="bullet-text"><span class="bullet-label">Encrypted storage: </span>Authentication tokens are stored in the iOS Keychain or Android Keystore using expo-secure-store. All data transmission between the app and our servers uses TLS encryption.</span>
     </div>
     <div class="bullet">
       <span class="bullet-dot">•</span>
@@ -357,7 +364,7 @@
 
   <footer>
     <p>© 2026 Andrew T. Gabrielson, MD · All rights reserved</p>
-    <p style="margin-top:6px;">MockUro is not affiliated with or endorsed by the American Urological Association.</p>
+    <p style="margin-top:6px;">MockUro is not affiliated with or endorsed by any professional medical society.</p>
   </footer>
 
 </body>
